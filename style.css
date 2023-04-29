@@ -24,7 +24,8 @@ body {
 .active,
 .submit-btn,
 .addToCart-btn,
-.price {
+.price,
+.subscribe {
     background-color: #F9A331;
 }
 
@@ -63,9 +64,9 @@ body {
     cursor: pointer;
 }
 
-.mobile-content {}
+/* .mobile-content {}
 
-.mobile-content-info {}
+.mobile-content-info {} */
 
 .mobile-content-info p {
     font-size: 15px;
@@ -150,7 +151,33 @@ body {
     color: #6d6060;
 }
 
+/* subscribe section start */
+.subscribe {
+    width: 90%;
+}
+
+.subscribe form .subs-input input {
+    width: 30%;
+    border: 0;
+    padding: 12px 8px;
+}
+
+.subs-input input:focus {
+    border: none;
+}
+
+.subscribe form .subs-input button {
+    margin-left: -30px;
+    background-color: #C97506;
+    padding: 10px 20px;
+    border-radius: 26px;
+    border: none;
+
+}
+
+/* subscribe section end */
 /* footer style css start  */
+
 .fot-link a {
     color: #7f7f7f;
 }
