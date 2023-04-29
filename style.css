@@ -1,0 +1,158 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F0F2F4;
+}
+
+.bg-color {
+    background-color: #F0F2F4;
+}
+
+/* common style css start  */
+
+/* yellow background color  */
+.active,
+.submit-btn,
+.addToCart-btn,
+.price {
+    background-color: #F9A331;
+}
+
+.confirm,
+.privacy-content p {
+    font-size: 14px;
+}
+
+/* common style css end  */
+
+/* navbar style start */
+#navbar ul li a {
+    padding: 8px 14px;
+    border-radius: 18px;
+    margin: auto 6px;
+}
+
+#navbar ul li a:hover {
+    background-color: #149FDA;
+    color: #fff;
+}
+
+/* navbar style end */
+
+/* left side css style start */
+.mobile-img {
+    width: 35%;
+}
+
+.mobile-img img {
+    transition: transform .3s;
+}
+
+.mobile-img img:hover {
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+.mobile-content {}
+
+.mobile-content-info {}
+
+.mobile-content-info p {
+    font-size: 15px;
+    text-transform: capitalize;
+    padding-bottom: 1px;
+}
+
+.icons {
+    font-size: 13px;
+    margin-right: 2px;
+}
+
+.price {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    padding: 14px 10px;
+    color: white;
+}
+
+.content-buttom {
+    display: flex;
+
+}
+
+.content-buttom li {
+    border-right: 1px solid #ddd;
+    padding: 8px;
+}
+
+.content-buttom li:last-child {
+    border-right: transparent;
+}
+
+.content-buttom li strong {
+    font-size: 18px;
+}
+
+.content-buttom li span {
+    font-size: 12px;
+}
+
+.content-buttom-icons {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.addToCart-btn {
+    width: 100%;
+    border: none;
+}
+
+
+
+/* left side css style end */
+
+/* right side form style  start*/
+.submit-btn:hover {
+    background-color: #F9A331;
+}
+
+.privacy-content a:hover {
+    text-decoration: underline;
+}
+
+.privacy-content a {
+    color: #F9A331;
+}
+
+/* right side form style  end */
+
+/* details styles css */
+/* .details-content {} */
+
+.details-content li {
+    margin-bottom: 6px;
+    list-style: none;
+}
+
+.details-content li p {
+    font-size: 14px;
+    color: #6d6060;
+}
+
+/* footer style css start  */
+.fot-link a {
+    color: #7f7f7f;
+}
+
+/* footer style css end */
