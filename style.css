@@ -177,6 +177,22 @@ body {
 
 /* subscribe section end */
 /* footer style css start  */
+.social a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F9A331;
+    background-color: #ece3e3;
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+
+.social-icon {
+    font-size: 22px;
+}
 
 .fot-link a {
     color: #7f7f7f;
