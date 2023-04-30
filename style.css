@@ -137,6 +137,13 @@ body {
 /* left side css style end */
 
 /* right side form style  start*/
+.apply-form input:focus,
+.subs-input input:focus {
+    box-shadow: none;
+    outline: none;
+    border-color: #F9A331;
+}
+
 .submit-btn:hover {
     background-color: #F9A331;
 }
@@ -169,14 +176,18 @@ body {
     width: 90%;
 }
 
-.subscribe form .subs-input input {
-    width: 30%;
-    border: 0;
+.subscribe h2 {
+    font-size: 20px;
+}
+
+.subs-input input {
+    display: inline-block;
+    width: 70%;
     padding: 12px 8px;
 }
 
 .subs-input input:focus {
-    border: none;
+    border-color: #C97506;
 }
 
 .subscribe form .subs-input button {
@@ -259,6 +270,19 @@ body {
     }
 
     /* left side mobile details style end */
+
+    /* subscribe section start */
+    .subscribe h2 {
+        font-size: 28px;
+    }
+
+    .subscribe form .subs-input input {
+        width: 30%;
+        padding: 12px 8px;
+        margin: auto;
+    }
+
+    /* subscribe section end */
 }
 
 /* // Large devices (desktops, 992px and up) */
