@@ -64,6 +64,7 @@ body {
 
 .mobile-img img {
     margin-top: -16%;
+    margin-left: -10%;
 }
 
 
@@ -87,8 +88,8 @@ body {
     padding: 14px 10px;
     color: #fff;
     position: absolute;
-    bottom: 0;
-    right: -21px;
+    bottom: 24px;
+    right: 0;
     border-radius: 6px 0 0 6px;
 }
 
