@@ -16,84 +16,59 @@
 
 <body>
 
-    <!-- page navbar section -->
-    <nav class="navbar navbar-expand-lg bg-color shadow-sm">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                Brand <br> <span class="fs-6">Name</span>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
-                aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbar">
-                <ul class="navbar-nav mx-auto mb-2 mb-lg-0  text-uppercase ">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">mobile</a>
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link" href="#">financial</a>
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link" href="#">news</a>
-                    </li>
-                </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-            </div>
-        </div>
-    </nav>
-    <!-- navbar end -->
-
     <!-- mobile details section -->
-    <section class="mt-3">
+    <section class="mt-5">
         <div class="container">
-            <div class="row gap-3">
+            <div class="row g-3">
                 <!-- left side mobile details start -->
-                <div class="col-sm-8 ">
-                    <div class="d-flex bg-white rounded p-3 align-items-center overflow-hidden position-relative">
+                <div class="col-12 col-md-8 ">
+                    <div
+                        class="d-flex flex-column flex-lg-row justify-content-around bg-white rounded py-3 align-items-center position-relative gx-2">
                         <!-- Mobile image -->
-                        <div class="mobile-img">
+                        <div class="mobile-img  overflow-hidden">
                             <img src="https://www.pngmart.com/files/15/Apple-iPhone-11-PNG-Image.png" alt="iphone"
                                 class="img-fluid ">
                         </div>
                         <!-- mobile details content -->
-                        <div class="mobile-content">
-                            <h2 class="py-2">Apple iPhone 11</h2>
+                        <div class="mobile-content px-3">
+                            <h2 class="py-3">Apple iPhone 11</h2>
                             <div class="mobile-content-info">
                                 <p> <i class="fa-solid fa-calendar-days icons"></i> released 2019, September 20</p>
                                 <p> <i class="fa-solid fa-mobile-screen icons"></i> 194g, 8.3mm thickness</p>
                                 <p> <i class="fa-solid fa-code icons"></i> iOS 13, up to iOS 16.41</p>
                                 <p> <i class="fa-solid fa-sd-card icons"></i> 64GB/128GB/258GB storage, no card slot</p>
                             </div>
-                            <div class="price shadow-sm">
+                            <div class="price shadow-sm ">
                                 <p class="py-1 fs-5">$<b>389.00</b></p>
                             </div>
-                            <ul class="nav my-3 content-buttom gap-3">
+                            <ul class="my-3 nav content-buttom g-3 row row-cols-2 row-cols-md-4">
                                 <li>
-                                    <i class="fa-solid fa-mobile content-buttom-icons"></i><br>
-                                    <strong>6.1"</strong> <br>
-                                    <span>828x1792 pixels </span>
+                                    <i class="fa-solid fa-mobile content-buttom-icons"></i>
+                                    <div>
+                                        <strong>6.1"</strong> <br>
+                                        <span>828x1792 pixels </span>
+                                    </div>
                                 </li>
                                 <li>
-                                    <i class="fa-solid fa-camera content-buttom-icons"></i><br>
-                                    <strong>12MP</strong> <br>
-                                    <span>2160p </span>
+                                    <i class="fa-solid fa-camera content-buttom-icons"></i>
+                                    <div>
+                                        <strong>12MP</strong> <br>
+                                        <span>2160p </span>
+                                    </div>
                                 </li>
                                 <li>
-                                    <i class="fa-solid fa-microchip content-buttom-icons"></i><br>
-                                    <strong>4GB Ram</strong> <br>
-                                    <span>Apple A13 Bionic </span>
+                                    <i class="fa-solid fa-microchip content-buttom-icons"></i>
+                                    <div>
+                                        <strong>4GB Ram</strong> <br>
+                                        <span>Apple A13 Bionic </span>
+                                    </div>
                                 </li>
                                 <li>
-                                    <i class="fa-solid fa-battery-half content-buttom-icons"></i><br>
-                                    <strong>2100 mAh</strong> <br>
-                                    <span>Li-Ion</span>
+                                    <i class="fa-solid fa-battery-half content-buttom-icons"></i>
+                                    <div>
+                                        <strong>2100 mAh</strong> <br>
+                                        <span>Li-Ion</span>
+                                    </div>
                                 </li>
                             </ul>
                             <button class="addToCart-btn text-uppercase py-2 text-white rounded">add to cart</button>
@@ -103,23 +78,24 @@
                 <!-- left side mobile details end-->
 
                 <!-- right side form section start-->
-                <div class="col-sm bg-white p-3">
-                    <h3 class="text-center text-uppercase py-2">apply now</h3>
-                    <form class="">
-                        <div class="d-flex gap-3 mb-3">
-                            <input class="form-control" type="text" placeholder="Name">
-                            <input class="form-control" type="text" placeholder="Surename">
-                        </div>
-                        <input type="email" class="form-control mb-3" placeholder="Email Address">
-                        <input type="text" class="form-control mb-3" placeholder="ID Number">
-                        <input type="number" class="form-control mb-3" placeholder="Contact Number">
-                        <div class="mb-3 form-check">
-                            <input type="checkbox" class="form-check-input" id="confirm">
-                            <label class="form-check-label confirm " for="confirm">I agree to receive marketing
-                                communications from Mondo</label>
-                        </div>
-                        <button type="submit" class="btn submit-btn w-100 text-white">Submit</button>
-                        <!-- <div class="privacy-content py-3">
+                <div class="col-12 col-md-4 ">
+                    <div class="bg-white p-3">
+                        <h3 class="text-center text-uppercase py-2">apply now</h3>
+                        <form class="">
+                            <div class="d-flex gap-3 mb-3">
+                                <input class="form-control" type="text" placeholder="Name">
+                                <input class="form-control" type="text" placeholder="Surename">
+                            </div>
+                            <input type="email" class="form-control mb-3" placeholder="Email Address">
+                            <input type="text" class="form-control mb-3" placeholder="ID Number">
+                            <input type="number" class="form-control mb-3" placeholder="Contact Number">
+                            <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="confirm">
+                                <label class="form-check-label confirm " for="confirm">I agree to receive marketing
+                                    communications from Mondo</label>
+                            </div>
+                            <button type="submit" class="btn submit-btn w-100 text-white">Submit</button>
+                            <!-- <div class="privacy-content py-3">
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt
                                 molestias, voluptates </p>
                             <p>
@@ -128,103 +104,94 @@
                                 <a href="#" class="">privacy policy</a>
                             </p>
                         </div> -->
-                    </form>
+                        </form>
+                    </div>
                 </div>
                 <!-- right side form section end-->
 
-                <!-- Mobile details  start -->
-                <div class="mt-3 bg-white px-3 py-4">
-                    <h2 class="fs-4 text-uppercase pb-4">specification</h2>
-                    <!-- full details -->
-                    <ul class="d-flex flex-column details-content m-0 p-0">
-                        <li>
-                            <p><span>&gt;</span> <b>body:</b>
-                                Aluminum frame, Gorilla Glass front with oleophobic
-                                coating, Gorilla Glass back with glossy finish, IP68 certified for water and dust
-                                resistance. Black, Green, Yellow, Purple, White, and Red color options.</p>
-                        </li>
-                        <li>
-                            <p>
-                                <span>&gt;</span>
-                                <b>screen:</b>
-                                6.1″ IPS LCD screen of 828 x 1792 px resolution, 326ppi, 625 nits, 120Hz touch
-                                sensing, wide color gamut. True Tone adjustment via a six-channel ambient light
-                                sensor.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                <span>&gt;</span>
-                                <b>OS :</b>
-                                Apple iOS 13
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                <span>&gt;</span>
-                                <b>chipset :</b>
-                                Apple A13 Bionic chip (7nm+) - Hexa-core (2x2.66 GHz Lightning + 4x1.8 GHz Thunder)
-                                Apple CPU, four-core Apple GPU, 8-core Apple NPU 3-gen
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                <span>&gt;</span>
-                                <b>Memory :</b>
-                                4GB of RAM; 64/128/256GB of internal storage
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                <span>&gt;</span>
-                                <b>Camera :</b>
-                                Dual 12MP camera: 26mm main wide-angle, F/1.8, OIS, Dual Pixel AF; 13mm ultra
-                                wide-angle, F/2.4, 120-degree field of view; quad-LED flash with slow sync
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                <span>&gt;</span>
-                                <b>Video recording :</b>
-                                2160p@60/30fps, 1080p@30/60/120/240fps video recording with wider dynamic range and
-                                spatial sound, OIS + EIS
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                <span>&gt;</span>
-                                <b>Selfie :</b>
-                                Dual camera - 23mm 12MP F/2.2 front-facing camera with HDR mode + 3D TOF camera;
-                                2160p@60/30fps, 1080p@30/60/120fps video recording with wider dynamic range and
-                                spatial sound, EIS, depth detection for Portrait mode
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                <span>&gt;</span>
-                                <b>Connectivity : </b>
-                                Dual SIM, 4G LTE (1 Gbps); Wi-Fi a/b/g/n/ac/ax; Bluetooth 5.0; Lightning port; GPS
-                                with A-GPS, GLONASS, GALILEO, QZSS; NFC; Apple U1 chip ultrawideband
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                <span>&gt;</span>
-                                <b>Battery : </b>
-                                3,110 mAh battery, 18W fast charging, Qi wireless charging
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                <span>&gt;</span>
-                                <b>Misc : </b>
-                                Face ID through dedicated TrueDepth camera, stereo speakers, Taptic Engine
-                            </p>
-                        </li>
-                    </ul>
-                </div>
-                <!-- Mobile details end -->
             </div>
+            <!-- Mobile details  start -->
+            <div class="mt-3 bg-white px-3 py-4">
+                <h2 class="fs-4 text-uppercase pb-4">specification</h2>
+                <!-- full details -->
+                <ul class="d-flex flex-column details-content m-0 p-0 text-capitalize">
+                    <li>
+                        <p><b>body:</b>
+                            Aluminum frame, Gorilla Glass front with oleophobic
+                            coating, Gorilla Glass back with glossy finish, IP68 certified for water and dust
+                            resistance. Black, Green, Yellow, Purple, White, and Red color options.</p>
+                    </li>
+                    <li>
+                        <p>
+                            <b>screen:</b>
+                            6.1″ IPS LCD screen of 828 x 1792 px resolution, 326ppi, 625 nits, 120Hz touch
+                            sensing, wide color gamut. True Tone adjustment via a six-channel ambient light
+                            sensor.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <b>OS :</b>
+                            Apple iOS 13
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <b>chipset :</b>
+                            Apple A13 Bionic chip (7nm+) - Hexa-core (2x2.66 GHz Lightning + 4x1.8 GHz Thunder)
+                            Apple CPU, four-core Apple GPU, 8-core Apple NPU 3-gen
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <b>Memory :</b>
+                            4GB of RAM; 64/128/256GB of internal storage
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <b>Camera :</b>
+                            Dual 12MP camera: 26mm main wide-angle, F/1.8, OIS, Dual Pixel AF; 13mm ultra
+                            wide-angle, F/2.4, 120-degree field of view; quad-LED flash with slow sync
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <b>Video recording :</b>
+                            2160p@60/30fps, 1080p@30/60/120/240fps video recording with wider dynamic range and
+                            spatial sound, OIS + EIS
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <b>Selfie :</b>
+                            Dual camera - 23mm 12MP F/2.2 front-facing camera with HDR mode + 3D TOF camera;
+                            2160p@60/30fps, 1080p@30/60/120fps video recording with wider dynamic range and
+                            spatial sound, EIS, depth detection for Portrait mode
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <b>Connectivity : </b>
+                            Dual SIM, 4G LTE (1 Gbps); Wi-Fi a/b/g/n/ac/ax; Bluetooth 5.0; Lightning port; GPS
+                            with A-GPS, GLONASS, GALILEO, QZSS; NFC; Apple U1 chip ultrawideband
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <b>Battery : </b>
+                            3,110 mAh battery, 18W fast charging, Qi wireless charging
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <b>Misc : </b>
+                            Face ID through dedicated TrueDepth camera, stereo speakers, Taptic Engine
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <!-- Mobile details end -->
         </div>
     </section>
     <!-- mobile details section end -->
@@ -243,80 +210,6 @@
         </div>
     </section>
     <!-- subscribe section end -->
-    <!-- footer -->
-    <footer class="">
-        <div class="container shadow rounded border p-4">
-            <div class="footerHeader pb-4 pt-2">
-                <div class="row">
-                    <div class="col">
-                        <a href="/index.html" class="navbar-brand">
-                            Brand Name
-                        </a>
-                    </div>
-                    <div class="col d-flex gap-2 justify-content-end align-items-center">
-                        <p class="text-uppercase">find us on social media</p>
-                        <div class="d-flex gap-3 social">
-                            <a href=""> <i class="fa-brands fa-facebook social-icon "></i> </a>
-                            <a href=""> <i class="fa-brands fa-twitter social-icon"></i> </a>
-                            <a href=""> <i class="fa-brands fa-linkedin social-icon"></i> </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="p-6">
-                <div class="row ">
-                    <div class="col d-flex flex-column">
-                        <h2 class="fs-5">Mobile</h2>
-                        <div class="fot-link nav d-flex flex-column ">
-                            <a class="nav-link" rel="" href="#">Installation</a>
-                            <a class="nav-link" rel="" href="#">Release Notes</a>
-                            <a class="nav-link" rel="" href="#">Upgrade Guide</a>
-                            <a class="nav-link" rel="" href="#">Using with Preprocessors</a>
-                            <a class="nav-link" rel="" href="#">Optimizing for Production</a>
-                            <a class="nav-link" rel="" href="#">Browser Support</a>
-                            <a class="nav-link" rel="" href="#">IntelliSense</a>
-                        </div>
-                    </div>
-                    <div class="col d-flex flex-column">
-                        <h2 class="fs-5">Financial</h2>
-                        <div class="fot-link nav d-flex flex-column">
-                            <a class="nav-link" rel="" href="#">Utility-First</a>
-                            <a class="nav-link" rel="" href="#">Responsive Design</a>
-                            <a class="nav-link" rel="" href="#">Hover, Focus, &amp; Other States</a>
-                            <a class="nav-link" rel="" href="#">Dark Mode</a>
-                            <a class="nav-link" rel="" href="#">Adding Base Styles</a>
-                            <a class="nav-link" rel="" href="#">Extracting Components</a>
-                            <a class="nav-link" rel="" href="#">Adding New Utilities</a>
-                        </div>
-                    </div>
-                    <div class="col d-flex flex-column">
-                        <h2 class="fs-5">help</h2>
-                        <div class="fot-link nav d-flex flex-column ">
-                            <a class="nav-link" rel="" href="#">Configuration</a>
-                            <a class="nav-link" rel="" href="#">Theme Configuration</a>
-                            <a class="nav-link" rel="" href="#">Breakpoints</a>
-                            <a class="nav-link" rel="" href="#">Customizing Colors</a>
-                            <a class="nav-link" rel="" href="#">Customizing Spacing</a>
-                            <a class="nav-link" rel="" href="#">Configuring Variants</a>
-                            <a class="nav-link" rel="" href="#">Plugins</a>
-                        </div>
-                    </div>
-                    <div class="col d-flex flex-column">
-                        <h2 class="fs-5">legal</h2>
-                        <div class="fot-link nav d-flex flex-column">
-                            <a class="nav-link" rel="" href="#">GitHub</a>
-                            <a class="nav-link" rel="" href="#">Discord</a>
-                            <a class="nav-link" rel="" href="#">Twitter</a>
-                            <a class="nav-link" rel="" href="#">YouTube</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="d-flex  px-6 pt-12">
-                    <span class="">© Copyright 1986. All Rights Reserved.>
-                </div>
-            </div>
-        </div>
-    </footer>
     <!-- font awesome kit  -->
     <script src="https://kit.fontawesome.com/c177de5d1a.js" crossorigin="anonymous"></script>
 </body>

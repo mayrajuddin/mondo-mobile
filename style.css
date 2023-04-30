@@ -5,9 +5,14 @@ h4,
 h5,
 h6,
 p,
-li {
+li,
+ul {
     margin: 0;
     padding: 0;
+}
+
+li {
+    list-style: none;
 }
 
 body {
@@ -51,16 +56,16 @@ body {
 /* navbar style end */
 
 /* left side css style start */
-.mobile-img {
+/* .mobile-img {
     width: 35%;
-}
+} */
 
 .mobile-img img {
     transition: transform .3s;
 }
 
 .mobile-img img:hover {
-    transform: scale(1.5);
+    transform: scale(1.2);
     cursor: pointer;
 }
 
@@ -80,23 +85,24 @@ body {
 }
 
 .price {
-    position: absolute;
+    /* position: absolute;
     top: 0;
-    right: 20px;
+    right: 20px; */
     padding: 14px 10px;
     color: white;
-}
-
-.content-buttom {
-    display: flex;
-
 }
 
 .content-buttom li {
     border-right: 1px solid #ddd;
     padding: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: baseline;
+    gap: 5px;
 }
 
+.content-buttom li:nth-child(2),
 .content-buttom li:last-child {
     border-right: transparent;
 }
@@ -111,7 +117,14 @@ body {
 
 .content-buttom-icons {
     font-size: 20px;
-    margin-bottom: 5px;
+    padding: 0 5px;
+}
+
+.price {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(-50%);
 }
 
 .addToCart-btn {
@@ -143,11 +156,11 @@ body {
 
 .details-content li {
     margin-bottom: 6px;
-    list-style: none;
+    padding-bottom: 6px;
 }
 
 .details-content li p {
-    font-size: 14px;
+    font-size: 17px;
     color: #6d6060;
 }
 
@@ -199,3 +212,57 @@ body {
 }
 
 /* footer style css end */
+
+
+
+/* media query start  */
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+    /* left side mobile details style start */
+    .mobile-img {
+        width: 35%;
+    }
+
+    .mobile-content {
+        width: calc(100% - 40%);
+    }
+
+    .content-buttom li {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        gap: 5px;
+    }
+
+    .content-buttom li:nth-child(2),
+    .content-buttom li:last-child {
+        border-right: 1px solid #ddd;
+    }
+
+    .content-buttom li:last-child {
+        border-right: transparent;
+    }
+
+    .content-buttom-icons {
+        font-size: 20px;
+        padding: 0;
+    }
+
+    .price {
+        left: auto;
+        right: 20px;
+        transform: none;
+    }
+
+    /* left side mobile details style end */
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
