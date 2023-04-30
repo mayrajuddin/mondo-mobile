@@ -56,18 +56,17 @@ body {
 /* navbar style end */
 
 /* left side css style start */
-/* .mobile-img {
-    width: 35%;
-} */
+.mobile-img {
+    box-shadow: inset 0px 0px 24px -19px rgba(41, 41, 41, 1);
+    width: 90%;
+    position: relative;
+}
 
 .mobile-img img {
-    transition: transform .3s;
+    margin-top: -16%;
 }
 
-.mobile-img img:hover {
-    transform: scale(1.2);
-    cursor: pointer;
-}
+
 
 /* .mobile-content {}
 
@@ -85,11 +84,12 @@ body {
 }
 
 .price {
-    /* position: absolute;
-    top: 0;
-    right: 20px; */
     padding: 14px 10px;
-    color: white;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    right: -21px;
+    border-radius: 6px 0 0 6px;
 }
 
 .content-buttom li {
@@ -118,13 +118,6 @@ body {
 .content-buttom-icons {
     font-size: 20px;
     padding: 0 5px;
-}
-
-.price {
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: translateY(-50%);
 }
 
 .addToCart-btn {
@@ -173,7 +166,7 @@ body {
 
 /* subscribe section start */
 .subscribe {
-    width: 90%;
+    width: 100%;
 }
 
 .subscribe h2 {
@@ -181,7 +174,7 @@ body {
 }
 
 .subs-input input {
-    display: inline-block;
+    margin: auto;
     width: 70%;
     padding: 12px 8px;
 }
@@ -191,12 +184,12 @@ body {
 }
 
 .subscribe form .subs-input button {
-    margin-left: -30px;
+    margin-top: 12px;
     background-color: #C97506;
     padding: 10px 20px;
     border-radius: 26px;
     border: none;
-
+    width: 70%;
 }
 
 /* subscribe section end */
@@ -234,9 +227,25 @@ body {
 @media (min-width: 768px) {
 
     /* left side mobile details style start */
+    .product-info {
+        overflow: hidden;
+    }
+
     .mobile-img {
         width: 35%;
+        box-shadow: none;
     }
+
+
+    .mobile-img img {
+        transition: transform .3s;
+    }
+
+    .mobile-img img:hover {
+        transform: scale(1.2);
+        cursor: pointer;
+    }
+
 
     .mobile-content {
         width: calc(100% - 40%);
@@ -265,13 +274,20 @@ body {
 
     .price {
         left: auto;
+        top: 0;
         right: 20px;
+        bottom: auto;
         transform: none;
+        border-radius: 0 0 6px 6px;
     }
 
     /* left side mobile details style end */
 
     /* subscribe section start */
+    .subscribe {
+        width: 90%;
+    }
+
     .subscribe h2 {
         font-size: 28px;
     }
@@ -280,6 +296,16 @@ body {
         width: 30%;
         padding: 12px 8px;
         margin: auto;
+        display: inline-block;
+    }
+
+    .subscribe form .subs-input button {
+        margin-left: -30px;
+        background-color: #C97506;
+        padding: 10px 20px;
+        border-radius: 26px;
+        border: none;
+        width: initial;
     }
 
     /* subscribe section end */

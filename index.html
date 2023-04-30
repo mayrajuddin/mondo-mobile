@@ -23,11 +23,14 @@
                 <!-- left side mobile details start -->
                 <div class="col-12 col-md-8 ">
                     <div
-                        class="d-flex flex-column flex-lg-row justify-content-around bg-white rounded py-3 align-items-center position-relative gx-2">
+                        class="d-flex flex-column flex-lg-row justify-content-around bg-white rounded py-3 align-items-center position-relative gx-2 product-info">
                         <!-- Mobile image -->
-                        <div class="mobile-img  overflow-hidden">
+                        <div class="mobile-img ">
                             <img src="https://www.pngmart.com/files/15/Apple-iPhone-11-PNG-Image.png" alt="iphone"
                                 class="img-fluid ">
+                            <div class="price shadow-sm d-md-none">
+                                <p class="py-1 fs-5">$<b>389.00</b></p>
+                            </div>
                         </div>
                         <!-- mobile details content -->
                         <div class="mobile-content px-3">
@@ -38,7 +41,7 @@
                                 <p> <i class="fa-solid fa-code icons"></i> iOS 13, up to iOS 16.41</p>
                                 <p> <i class="fa-solid fa-sd-card icons"></i> 64GB/128GB/258GB storage, no card slot</p>
                             </div>
-                            <div class="price shadow-sm rounded-bottom">
+                            <div class="price shadow-sm d-none d-md-block">
                                 <p class="py-1 fs-5">$<b>389.00</b></p>
                             </div>
                             <ul class="my-3 nav content-buttom g-3 row row-cols-2 row-cols-md-4">
@@ -73,6 +76,95 @@
                             </ul>
                             <button class="addToCart-btn text-uppercase py-2 text-white rounded">add to cart</button>
                         </div>
+                        <!-- Mobile details  start 
+                        for mobile device only
+                        -->
+                        <div class="d-md-none mt-3 bg-white px-3 py-4">
+                            <h2 class="fs-4 text-uppercase pb-4">specification</h2>
+                            <!-- full details -->
+                            <ul class="d-flex flex-column details-content m-0 p-0 text-capitalize">
+                                <li>
+                                    <p><b>body:</b>
+                                        Aluminum frame, Gorilla Glass front with oleophobic
+                                        coating, Gorilla Glass back with glossy finish, IP68 certified for water and
+                                        dust
+                                        resistance. Black, Green, Yellow, Purple, White, and Red color options.</p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <b>screen:</b>
+                                        6.1″ IPS LCD screen of 828 x 1792 px resolution, 326ppi, 625 nits, 120Hz touch
+                                        sensing, wide color gamut. True Tone adjustment via a six-channel ambient light
+                                        sensor.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <b>OS :</b>
+                                        Apple iOS 13
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <b>chipset :</b>
+                                        Apple A13 Bionic chip (7nm+) - Hexa-core (2x2.66 GHz Lightning + 4x1.8 GHz
+                                        Thunder)
+                                        Apple CPU, four-core Apple GPU, 8-core Apple NPU 3-gen
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <b>Memory :</b>
+                                        4GB of RAM; 64/128/256GB of internal storage
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <b>Camera :</b>
+                                        Dual 12MP camera: 26mm main wide-angle, F/1.8, OIS, Dual Pixel AF; 13mm ultra
+                                        wide-angle, F/2.4, 120-degree field of view; quad-LED flash with slow sync
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <b>Video recording :</b>
+                                        2160p@60/30fps, 1080p@30/60/120/240fps video recording with wider dynamic range
+                                        and
+                                        spatial sound, OIS + EIS
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <b>Selfie :</b>
+                                        Dual camera - 23mm 12MP F/2.2 front-facing camera with HDR mode + 3D TOF camera;
+                                        2160p@60/30fps, 1080p@30/60/120fps video recording with wider dynamic range and
+                                        spatial sound, EIS, depth detection for Portrait mode
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <b>Connectivity : </b>
+                                        Dual SIM, 4G LTE (1 Gbps); Wi-Fi a/b/g/n/ac/ax; Bluetooth 5.0; Lightning port;
+                                        GPS
+                                        with A-GPS, GLONASS, GALILEO, QZSS; NFC; Apple U1 chip ultrawideband
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <b>Battery : </b>
+                                        3,110 mAh battery, 18W fast charging, Qi wireless charging
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <b>Misc : </b>
+                                        Face ID through dedicated TrueDepth camera, stereo speakers, Taptic Engine
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- Mobile details end -->
+
                     </div>
                 </div>
                 <!-- left side mobile details end-->
@@ -95,23 +187,15 @@
                                     communications from Mondo</label>
                             </div>
                             <button type="submit" class="btn submit-btn w-100 text-white">Submit</button>
-                            <!-- <div class="privacy-content py-3">
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt
-                                molestias, voluptates </p>
-                            <p>
-                                repudiandae nobis commodi eligendi alias dolores aperiam pariatur, asperiores fugit
-                                obcaecati quidem voluptatem delectus qui, dolore illum? Minus, cum.
-                                <a href="#" class="">privacy policy</a>
-                            </p>
-                        </div> -->
                         </form>
                     </div>
                 </div>
                 <!-- right side form section end-->
 
             </div>
+
             <!-- Mobile details  start -->
-            <div class="mt-3 bg-white px-3 py-4">
+            <div class="d-none d-md-block mt-3 bg-white px-3 py-4">
                 <h2 class="fs-4 text-uppercase pb-4">specification</h2>
                 <!-- full details -->
                 <ul class="d-flex flex-column details-content m-0 p-0 text-capitalize">
@@ -192,6 +276,7 @@
                 </ul>
             </div>
             <!-- Mobile details end -->
+
         </div>
     </section>
     <!-- mobile details section end -->
@@ -203,7 +288,7 @@
                 <form>
                     <div class="subs-input mt-4">
                         <input type="email" placeholder="Email Address" class="rounded-start form-control shadow-sm">
-                        <button class="text-white mt-0 text-uppercase" type="submit">sign up</button>
+                        <button class="text-white  text-uppercase" type="submit">sign up</button>
                     </div>
                 </form>
             </div>
