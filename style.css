@@ -160,9 +160,21 @@ body {
     padding-bottom: 6px;
 }
 
-.details-content li p {
+.details-content li h5 {
+    color: #C97506;
+    padding: 6px 0 6px 20px;
+    background-color: #F0F2F4;
+}
+
+.details-content li table tr th {
+    padding: 0 20px;
+}
+
+.pDetails-info p {
     font-size: 17px;
     color: #6d6060;
+    border-bottom: #eee solid 1px;
+
 }
 
 /* subscribe section start */
