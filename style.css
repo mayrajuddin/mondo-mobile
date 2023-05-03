@@ -42,6 +42,9 @@ body {
 
 /* common style css end  */
 
+.product {
+    margin-top: 60px;
+}
 
 /* left side css style start */
 .mobile-img {
@@ -60,6 +63,10 @@ body {
 /* .mobile-content {}
 .
 .mobile-content-info {} */
+.mobile-content {
+    width: 100%;
+}
+
 .mobile-content .status {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -273,6 +280,9 @@ body {
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+    .product {
+        margin-top: 48px;
+    }
 
     /* left side mobile details style start */
     .product-info {
