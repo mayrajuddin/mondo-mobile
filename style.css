@@ -17,6 +17,7 @@ li {
 
 body {
     background-color: #F0F2F4;
+    font-family: 'Poppins', sans-serif;
 }
 
 .bg-color {
@@ -41,19 +42,6 @@ body {
 
 /* common style css end  */
 
-/* navbar style start */
-#navbar ul li a {
-    padding: 8px 14px;
-    border-radius: 18px;
-    margin: auto 6px;
-}
-
-#navbar ul li a:hover {
-    background-color: #149FDA;
-    color: #fff;
-}
-
-/* navbar style end */
 
 /* left side css style start */
 .mobile-img {
@@ -153,6 +141,16 @@ body {
 /* right side form style  end */
 
 /* details styles css */
+.collapse-btn {
+    color: #F9A331;
+}
+
+.collapse-btn:hover {
+    color: #fff;
+    background-color: #F9A331;
+
+}
+
 /* .details-content {} */
 
 .details-content li {
@@ -161,17 +159,33 @@ body {
 }
 
 .details-content li h5 {
-    color: #C97506;
+    color: #F9A331;
     padding: 6px 0 6px 20px;
-    background-color: #F0F2F4;
+    background-color: #faf3e9cb;
+}
+
+.details-content li table tbody {
+    font-size: 15px;
 }
 
 .details-content li table tr th {
+    font-weight: normal;
     padding: 0 20px;
+    width: 30%;
+    color: #6d6060;
+}
+
+.details-content li table tr td {
+    width: 70%;
+
+}
+
+.details-content li table tr:last-child {
+    border-bottom: transparent;
 }
 
 .pDetails-info p {
-    font-size: 17px;
+
     color: #6d6060;
     border-bottom: #eee solid 1px;
 
@@ -252,6 +266,8 @@ body {
 
     .mobile-img img {
         transition: transform .3s;
+        margin-top: 0%;
+        margin-left: 0%;
     }
 
     .mobile-img img:hover {
