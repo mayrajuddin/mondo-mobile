@@ -60,6 +60,11 @@ body {
 /* .mobile-content {}
 .
 .mobile-content-info {} */
+.mobile-content .status {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
 .mobile-content .status p {
     background-color: #F6F8FA;
     padding: 4px 8px;
@@ -113,7 +118,7 @@ body {
 }
 
 .product-info .kFeature .product-info-active {
-    background-color: #C97506;
+    background-color: #F9A331;
     color: #fff;
 }
 
