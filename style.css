@@ -65,6 +65,7 @@ body {
 .mobile-content-info {} */
 .mobile-content {
     width: 100%;
+    font-size: 12px;
 }
 
 .mobile-content .status {
@@ -78,7 +79,7 @@ body {
     cursor: pointer;
     font-weight: 600;
     text-transform: capitalize;
-    font-size: 13px;
+    font-size: 12px;
 }
 
 .mobile-content .status p:hover b {
@@ -121,7 +122,7 @@ body {
     border-radius: 3px;
     font-weight: 600;
     text-transform: capitalize;
-    font-size: 15px;
+    font-size: 12px;
 }
 
 .product-info .kFeature .product-info-active {
@@ -309,6 +310,15 @@ body {
 
     .mobile-content {
         width: calc(100% - 40%);
+        font-size: 14px;
+    }
+
+    .mobile-content .status p {
+        font-size: 13px;
+    }
+
+    .product-info .kFeature p {
+        font-size: 15px;
     }
 
     .price {
