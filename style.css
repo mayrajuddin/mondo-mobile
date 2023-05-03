@@ -309,7 +309,6 @@ body {
 
 
     .mobile-content {
-        width: calc(100% - 40%);
         font-size: 14px;
     }
 
@@ -358,4 +357,11 @@ body {
     }
 
     /* subscribe section end */
+}
+
+/* lg  */
+@media (min-width: 992px) {
+    .mobile-content {
+        width: calc(100% - 40%);
+    }
 }
