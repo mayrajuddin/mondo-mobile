@@ -58,8 +58,21 @@ body {
 
 
 /* .mobile-content {}
-
+.
 .mobile-content-info {} */
+.mobile-content .status p {
+    background-color: #F6F8FA;
+    padding: 4px 8px;
+    cursor: pointer;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 13px;
+}
+
+.mobile-content .status p:hover b {
+    color: #C97506;
+}
+
 .product-info .pColor .c-black,
 .product-info .pColor .c-purple,
 .product-info .pColor .c-silver,
@@ -91,12 +104,12 @@ body {
 .product-info .kFeature p {
     background-color: #F6F8FA;
     margin-right: 6px;
-    padding: 2px 6px;
+    padding: 4px 8px;
     cursor: pointer;
-    border-radius: 4px;
+    border-radius: 3px;
     font-weight: 600;
     text-transform: capitalize;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .product-info .kFeature .product-info-active {
@@ -119,34 +132,6 @@ body {
     bottom: 24px;
     right: 0;
     border-radius: 6px 0 0 6px;
-}
-
-.content-buttom li {
-    border-right: 1px solid #ddd;
-    padding: 8px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: baseline;
-    gap: 5px;
-}
-
-.content-buttom li:nth-child(2),
-.content-buttom li:last-child {
-    border-right: transparent;
-}
-
-.content-buttom li strong {
-    font-size: 18px;
-}
-
-.content-buttom li span {
-    font-size: 12px;
-}
-
-.content-buttom-icons {
-    font-size: 20px;
-    padding: 0 5px;
 }
 
 .addToCart-btn {
@@ -275,35 +260,11 @@ body {
 }
 
 /* subscribe section end */
-/* footer style css start  */
-.social a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #F9A331;
-    background-color: #ece3e3;
-    height: 36px;
-    width: 36px;
-    border-radius: 50%;
-    text-decoration: none;
-}
 
-
-.social-icon {
-    font-size: 22px;
-}
-
-.fot-link a {
-    color: #7f7f7f;
-}
-
-/* footer style css end */
 
 
 
 /* media query start  */
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {}
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
@@ -333,27 +294,6 @@ body {
 
     .mobile-content {
         width: calc(100% - 40%);
-    }
-
-    .content-buttom li {
-        display: flex;
-        flex-direction: column;
-        justify-content: start;
-        gap: 5px;
-    }
-
-    .content-buttom li:nth-child(2),
-    .content-buttom li:last-child {
-        border-right: 1px solid #ddd;
-    }
-
-    .content-buttom li:last-child {
-        border-right: transparent;
-    }
-
-    .content-buttom-icons {
-        font-size: 20px;
-        padding: 0;
     }
 
     .price {
@@ -394,9 +334,3 @@ body {
 
     /* subscribe section end */
 }
-
-/* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {}
-
-/* // X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {}
