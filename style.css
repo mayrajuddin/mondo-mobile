@@ -141,6 +141,7 @@ body {
 /* right side form style  end */
 
 /* details styles css */
+
 .collapse-btn {
     color: #F9A331;
 }
@@ -185,11 +186,25 @@ body {
 }
 
 .pDetails-info p {
-
     color: #6d6060;
     border-bottom: #eee solid 1px;
 
 }
+
+/* product description style start */
+.description-content h4 {
+    font-size: 17px;
+    padding: 6px 0;
+    font-weight: 600;
+}
+
+.description-content p {
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 28px;
+}
+
+/* product description style end */
 
 /* subscribe section start */
 .subscribe {
